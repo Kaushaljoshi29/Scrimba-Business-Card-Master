@@ -1,0 +1,29 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background: #161619;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.social-icons {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+  .footer-container {
+    gap: 30px;
+    transition: all 0.5s;
+  }
+
+  .social-icons {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+}
