@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Kaushaljoshi29/interactive-rating-component-main)
+- Solution URL: (https://github.com/Kaushaljoshi29/Scrimba-Business-Card-Master)
 - Live Site URL: (https://kaushaljoshi29.github.io/interactive-rating-component-main/)
 
 ## My process
