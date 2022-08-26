@@ -6,10 +6,15 @@ import ProfileFooter from "./components/ProfileFooter"
 import data from './data'
 
 function App() {
-  const mainSectionRender = data.map(x => {
+  const mainSectionRender = data.map(item => {
     return <ProfileMainComponent 
-              title = {x.title}
-              description ={x.description} 
+              // title = {x.title}
+              // description ={x.description}
+              
+
+              //Passing Props as an object
+              item = {item}
+              
           />;
   })
 
