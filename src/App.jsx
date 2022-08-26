@@ -1,16 +1,23 @@
 import "./App.css";
 import ProfileInfo from "./components/ProfileInfo";
-import ProfileAbout from "./components/ProfileAbout"
-import ProfileInterest from "./components/ProfileInterest";
+import ProfileMainComponent from "./components/ProfileMainComponent"
+// import ProfileInterest from "./components/ProfileInterest";
 import ProfileFooter from "./components/ProfileFooter"
+import data from './data'
 
 function App() {
+  const mainSectionRender = data.map(x => {
+    return <ProfileMainComponent 
+              title = {x.title}
+              description ={x.description} 
+          />;
+  })
+
   return (
     <div className="App">
       <div className="container">
         <ProfileInfo />
-        <ProfileAbout />  
-        <ProfileInterest />
+        {mainSectionRender}
         <ProfileFooter />
       </div>
     </div>
@@ -18,3 +25,5 @@ function App() {
 }
 
 export default App;
+
+
