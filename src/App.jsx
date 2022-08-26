@@ -13,7 +13,10 @@ function App() {
               
 
               //Passing Props as an object
-              item = {item}
+              // item = {item}
+
+              //Spread object as Props
+              {...item}
               
           />;
   })
